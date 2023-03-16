@@ -1,0 +1,62 @@
+.contenedorSegundo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.textos{
+    margin-top: 5%;
+    
+}
+/* .containerIzq{
+    all: initial;
+    flex: 1;
+    width: 50%;
+    
+}
+.containerDer{
+    flex: 1;
+    width: 50%;
+    margin: none;
+    box-sizing: border-box;
+} */
+.fotoSegundo{
+    height: 500px;
+    
+    margin-top: 8%;
+   animation: animation1 3.5s;
+    animation-iteration-count: 3;
+    z-index: 0;
+   
+}
+
+
+.tituloSegundo{
+    font-family: rouben;
+    font-size: 42px;
+    width: 100%;
+    
+    font-weight: 500;
+}
+.subtituloSegundo{
+    font-family: rouben ligth;
+    font-size: 20px;
+    width: 500px;
+    
+}
+.primeraParte{
+    color: #36b079;
+    font-weight: bold;
+}
+@keyframes animation1{
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

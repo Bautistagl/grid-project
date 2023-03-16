@@ -1,0 +1,134 @@
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    background: #eef4ed;
+    border-top: 1px rgba(128, 128, 128, 0.53) solid;
+    padding: 20px;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+li{
+  list-style: none;
+  padding: 10px 10px 10px 0px;
+  color: #0c1317a0;
+  cursor: pointer;
+}
+li:hover{
+  color: black;
+  font-weight: bold;
+  transition: ease-out 0.3s;
+}
+a{
+  text-decoration: none;
+  color: #0c1317a0 ;
+  
+}
+.columnas {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 4%;
+}
+ul{
+  all: initial;
+  font-family: rouben ligth;
+}
+.columna {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-family: rouben;
+  font-size: 1.2rem;
+}
+.columna-principal {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-family: rouben;
+  font-size: 1.1rem;
+  margin-right: 10%;
+  grid-column: 1 / 2;
+  
+}
+
+.footer-parrafo{
+  padding: 10px 10px;
+  width: 320px;
+  color: #0c1317cb;
+}
+.redes-footer{
+  display: flex;
+  justify-content: start;
+  
+}
+.icon-redes{
+  height: 25px;
+  margin: 0 10px;
+}
+.boton-footer{
+  display: block;
+  margin-top: 5%;
+  height: 15%;
+  background: #0c1317;
+  color:#eef4ed;
+  width: 100%;
+  border-radius: 3px;
+  font-family: rouben ligth ;
+  font-size: 0.9rem;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+ 
+}
+
+.footer-titulo-principal{
+  font-size: 1.3rem;
+  color: #0c1317;
+  font-weight: bolder;
+}
+
+.licencias-footer{
+  
+  all: initial;
+  font-family: 'Courier New', Courier, monospace;
+  color:#0c1317a0 ;
+  margin: auto;
+}
+
+/* .reserved-footer{
+    color: #0c1317be;
+    text-align: center;
+    font-family: rouben;
+    margin-top: 10px;
+}
+
+
+
+
+.icon-redes{
+    height: 40px;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-footer {
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .reserved-footer{
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+
+  .logo-footer{
+    height: 190px;
+    margin-bottom: 0;
+  }
+} */
