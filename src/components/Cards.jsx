@@ -12,7 +12,7 @@ const Cards = () => {
         Cloud Hosting
       </div>
       <div className='subtitulo-card'> Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab</div>
-      <Button/>
+      <Button />
     </div>
     <div className='card3'>
     <img alt='' className='icono-card' src={cloudIcon}/>

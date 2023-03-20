@@ -15,10 +15,10 @@
 }
 
 
-.card3:hover{
-    box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(59, 105, 147, 0.2);
+/* .card3:hover{
+    box-shadow: 5.74807px 5.74807px 20.7404px 5.87404px rgba(214, 224, 233, 0.5);
    
-}
+} */
 .titulo-card{
     display: flex;
     font-family: rouben;

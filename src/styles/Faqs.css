@@ -1,10 +1,15 @@
 .faqs-container{
+    width: 1300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 700px;
-    
-   
+    margin: auto;
+    /* background-image: url('../assets/backgroundNube1.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+
 }
 .faqs-titulo{
     font-size: 3rem;
@@ -12,6 +17,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    color: #eef4ed;
 }
 .faqs-subtitulo{
     font-size: 1.3rem;
@@ -19,7 +25,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    
+    color: #eef4ed;
 }
 .faqs{
     justify-content: center;
@@ -29,7 +36,6 @@
 .faqs-icon{
     height: 400px;
     margin-left: 15%;
-    
 }
 
 
@@ -44,9 +50,7 @@
     border-radius: 5px;
     
 }
-/* .item.show{
-    background:#36b07922;
-} */
+
 
 .title{
     color: #0c1317;
@@ -58,7 +62,7 @@
     font-size: 0.8rem;
 }
 .title.show{
-    color: #36b079;
+    color: #36B079;
     
 }
 
@@ -74,5 +78,7 @@
     transition: all 0.5s cubic-bezier(1,0,1,0);
 }
 
-
+.guarantee{
+   margin-top: 5%;
+}
 

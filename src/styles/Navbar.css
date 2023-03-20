@@ -1,22 +1,12 @@
-/* .navbar{
-    
-    height: 10vh;
-    background:#eef4ed ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #36b079;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; 
-} */
+
 .navbar{
-    background:#eef4ed ;
+    background:#0c1317 ;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1000; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
     width: 100%;
     
 }
@@ -36,25 +26,98 @@
     justify-content: space-between;
     width: 20rem;
     height: 10rem;
-    
-   
+    margin-left: -30%;
 }
 .nav-items{
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: center;
     align-self: center;
+    margin-left: 10%;
 }
 
 .nav-title{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: rouben;
     margin-left: 3%;
     cursor: pointer;
-    color: #0c1317;
+    color: #eef4ed;
+    padding: 25px 25px;
    
 }
 .nav-title:hover{
-    color: #36b079;
+    color: #36B079;
 }
 
+
+
+.container-productos{
+    all: initial;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    z-index: 9999;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px;
+    height: 300px;
+    width: 90%;
+    background: #eef4ed;
+    border-radius: 10px;
+    backdrop-filter: blur(0px);
+    transition: opacity 0.4s ease-in-out; /* Add the transition property with a longer duration */
+    opacity: 0; /* Set the initial opacity to 0 */
+    pointer-events: none; /* Disable pointer events when the element is hidden */  
+}
+
+.container-productos.show {
+    transition: opacity 0.4s ease-in-out;
+    opacity: 1; /* Change the opacity to 1 to show the element */
+    pointer-events: auto; /* Enable pointer events when the element is shown */
+  }
+
+.productos {
+    border-radius: 5px;
+    margin:auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .productos:hover{
+    background: #d3dcd26c;
+    cursor:pointer;
+  }
+
+  .descripcion-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 10%;
+  }
+
+  .titulo-productos{
+    margin-bottom: 5%;
+    font-family: rouben;
+    font-size: 1rem;
+  }
+  .titulo-productos:hover{
+    color: #328761;
+  }
+  
+  .subtitulo-productos{
+    font-family: rouben ligth;
+    width: 70%;
+    font-size: 0.7rem;
+
+  }
+  .logo-productos{
+    height: 50px;
+  }
+  

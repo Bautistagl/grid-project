@@ -1,14 +1,11 @@
 import React, {useState} from 'react'
 import { faqsIcon } from '../assets'
 import "../styles/Faqs.css"
+import Guarantee from './Guarantee';
 
 const Faqs = () => {
 
-  const [primerPregunta, setPrimerPregunta] = useState(false);
-const [segundaPregunta, setSegundaPregunta] = useState(false);
-const [tercerPregunta, setTercerPregunta] = useState(false);
-const [cuartaPregunta, setCuartaPregunta] = useState(false);
-const [respuestaVisible, setRespuestaVisible] = useState(false);
+
 
 const [selected, setSelected] = useState(null);
 
@@ -22,29 +19,8 @@ const toggle = (i) => {
   return (
     <>
     <div className='faqs-titulo'> FAQs</div>
-    <div className='faqs-subtitulo'> Respuestas a las preguntas mas frecuentes</div>
+    <div className='faqs-subtitulo'> Most frecuently asked questions</div>
     <section className='faqs-container'> 
-     {/* <div className='faqs'> 
-     <div  className={`faqs-preguntas ${primerPregunta ? 'clicked' : ''}`} onClick={() =>setPrimerPregunta(!primerPregunta)}> 
-     Probando pregunta de ejemploi para ver longitud?
-     </div>
-      { primerPregunta && <span className={`faqs-respuesta ${primerPregunta ? 'clicked' : ''}`} > Probando longitud de las respuestas </span> }
-
-
-     <div className={`faqs-preguntas ${segundaPregunta ? 'clicked' : ''}`} onClick={() => setSegundaPregunta(!segundaPregunta)}> Probando pregunta de ejemploi para ver longitud?
-      </div>
-     {segundaPregunta && <span className='faqs-respuesta'>Probando longitud de las respuestas </span>}
-
-
-     <div className='faqs-preguntas' onClick={() => setTercerPregunta(!tercerPregunta)} > Probando pregunta de ejemploi para ver longitud? 
-     </div>
-     {tercerPregunta && <span className='faqs-respuesta'>Probando longitud de las respuestas </span>}
-
-
-     <div className='faqs-preguntas'onClick={() => setCuartaPregunta(!cuartaPregunta)}> Probando pregunta de ejemploi para ver longitud?
-      </div>
-     {cuartaPregunta && <span className='faqs-respuesta' > Probando longitud de las respuestas </span>}
-    </div> */}
     <div className='accordion'>
       {data.map((item,i)=>(
       <div className={selected === i ? 'item show' : 'item'}>
@@ -59,8 +35,10 @@ const toggle = (i) => {
 
     </div>
     
+        <div className='guarantee'>  
 
-    <img alt='' className='faqs-icon' src={faqsIcon}/>
+    <Guarantee/>
+        </div>
 
     </section>
     </>
