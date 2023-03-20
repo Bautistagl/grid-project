@@ -2,7 +2,6 @@
     all: initial;
     position: fixed;
     display: flex;
-    /* background: linear-gradient(to right, #202942, #36b079); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: rgba(170, 220, 197,0.3);
     backdrop-filter: blur(30px);
     height: 45%;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { gridLogo, gridLogoBlanco } from '../assets'
+import { gridLogo1, gridLogoBlanco } from '../assets'
 import "../styles/Principal.css"
 
 const Principal = () => {
@@ -15,7 +15,7 @@ const Principal = () => {
         Our decentralized cloud hosting service offers you the ability to scale your applications and data without the need for a centralized data center. Say goodbye to high costs and enjoy the benefits of distributed computing
         </div>
      </div>
-          <img className='fotoPrincipal' src={gridLogoBlanco} alt="" />
+          <img className='fotoPrincipal' src={gridLogo1} alt="" />
     </section>
   )
 }
