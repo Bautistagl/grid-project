@@ -5,8 +5,7 @@
     border-radius: 20px;
     text-align: start;
     display: flex;
-justify-content: space-between;
-align-items: center;
+    align-items: center;
     background-color: #eef4ed;;
     /* background-image: url('../assets/guarantee5.jpg'); 
     background-size: cover;
