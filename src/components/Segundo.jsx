@@ -9,7 +9,7 @@ const Segundo = () => {
      <div className='textos'>
 
         <div className='tituloSegundo'>
-       <span className='primeraParte'> Data Centers All Around The World </span>  
+       <span className='primeraParte'> Flux provides a global cloud network </span>  
         </div>
         <div className='subtituloSegundo'>
         Regions: North America, Europe, Asia, South America, Africa, Oceania

@@ -1,20 +1,19 @@
 .contact-container{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
     width: 70%;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left: 12vw;
 
 }
 .contact-section{
-
+    height: 550px;
     background-image: url('../assets/backgroundNube4.jpg'); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    border-bottom: 2px #36B079 solid;
 }
 .contact-form{
     display: grid;
@@ -88,6 +87,7 @@
     font-family: rouben;
     font-size: 3.5rem;
     color: #36B079;
+    margin-top: 4%;
 }
 
 .contact-subtitulo{

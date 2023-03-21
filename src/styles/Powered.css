@@ -11,14 +11,18 @@
 }
 
 .contenedor-powered{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    /* margin-bottom: 5%; */
+    
     height: 10vh;
-    background: #eef4ed;
+    background: #1c2830;
     border-bottom: 3px solid #36B079;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #eef4ed;
+    width: 100% !important;
+    margin-left: 0 !important;
     
 }

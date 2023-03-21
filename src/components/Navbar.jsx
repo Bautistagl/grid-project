@@ -8,20 +8,20 @@ import { cloudIcon } from '../assets'
 
 function Navbar()  {
     const[dropdown,setDropdown] = useState(true)
-  //   const [isSticky, setIsSticky] = useState(false);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     window.scrollY > 0 ? setIsSticky(true) : setIsSticky(false);
-  //   };
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
+    const [isSticky, setIsSticky] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY > 0 ? setIsSticky(true) : setIsSticky(false);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <>
-        <nav className={`navbar `}>
+        <nav className={`navbar ${isSticky ? 'sticky' : ''}  `}>
             <Link to="/">
                    <img className='navbar-logo' src={gridLogo1}/>
              </Link>
@@ -37,10 +37,11 @@ function Navbar()  {
           <div className='nav-title'> Contact </div>
         </ul>
         </nav>
-        <div className={`container-productos ${dropdown ? 'show' : ''}`}
+        <div className={`container-productos ${dropdown ? 'show' : ''} ${isSticky ? 'sticky' : '' }`}
           onMouseOver={() => setDropdown(true)}
           onMouseLeave={()=>setDropdown(false)}
           >
+
               <div className='productos'> 
                <img alt='' className='logo-productos' src={cloudIcon}/>
                <div  className='descripcion-productos'> 
@@ -98,6 +99,7 @@ function Navbar()  {
                </div>
                </div>
           </div>
+          
     </>
   )
 }

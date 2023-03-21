@@ -1,30 +1,19 @@
 .contenedorPrincipal{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-self: center;
     
 }
 .textos{
     margin-top: 5%;
-    margin-left: 8%;
+   
 }
-/* .containerIzq{
-    all: initial;
-    flex: 1;
-    width: 50%;
-    
-}
-.containerDer{
-    flex: 1;
-    width: 50%;
-    margin: none;
-    box-sizing: border-box;
-} */
+
 .fotoPrincipal{
-    height: 400px;
-    width: 700px;
-    margin-left: 20%;
-    margin-top: 8%;
+    height: 25vh;
+    width: 60vh;
+    margin-left: auto;
+    margin-top: auto;
    animation: animation1 3.5s;
     animation-iteration-count: infinite;
     z-index: 0;
@@ -35,16 +24,16 @@
     color: #eef4ed;
     font-family: rouben;
     font-size: 42px;
-    width: 500px;
-    margin: 5% 0 0 21%;
+    width: 700px;
+    margin-top: 10%;
     font-weight: 500;
 }
 .subtituloPrincipal{
     color: #eef4ed;
     font-family: rouben ligth;
     font-size: 20px;
-    width: 500px;
-    margin: 2% 0 0 21%;
+    width: 700px;
+    margin-top: auto;
 }
 
 @keyframes animation1{

@@ -3,15 +3,21 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .textos{
-    margin-top: 5%;
+    width: 730px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
     
 }
 
 .fotoSegundo{
-    height: 500px;
+    height: 650px;
     
     margin-top: 8%;
    animation: animation1 3.5s;
@@ -25,8 +31,8 @@
     font-family: rouben;
     font-size: 42px;
     width: 100%;
-    
     font-weight: 500;
+    margin-bottom: 2%;
 }
 .subtituloSegundo{
     font-family: rouben ligth;

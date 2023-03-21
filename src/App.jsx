@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 import Powered from "./components/Powered";
 import Principal from "./components/Principal";
 import Segundo from "./components/Segundo";
+import "./styles/Main.css"
+
 
 
 
@@ -15,15 +17,30 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <div className="nav-container"> 
      <Navbar/>  
-     <Principal/>
+    </div>
+
+     <div className="pri-container"> 
+      <Principal/>
+     </div>
+     <div className="seg-container"> 
      <Segundo/>
-     <Powered/>
+     </div>
+     <div className="powered-container">
+        <Powered style={{ marginLeft: 0 }} />
+     </div>
+     <div className="car-container">
      <Cards/>
-     {/* <Guarantee/> */}
+     </div>
+     <div className="faq-container">
      <Faqs/>
+     </div>
      <ContactForm/>
+     <div className="foo-container">
+
      <Footer/>
+     </div>
    </BrowserRouter>
     </>
      

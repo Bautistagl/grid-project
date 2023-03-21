@@ -1,20 +1,18 @@
 
 .navbar{
+  position: fixed;
     background:#0c1317 ;
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     z-index: 1000; 
-
     width: 100%;
-    
 }
 
  .navbar.sticky {
     width: 100%;
     position: fixed;
-    top: 0;
     background-color: transparent; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     backdrop-filter: blur(10px);
@@ -24,16 +22,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 20rem;
-    height: 10rem;
-    margin-left: -30%;
+    width: 15rem;
+    margin-left: 10.6vw;
 }
 .nav-items{
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: center;
     align-self: center;
-    margin-left: 10%;
+    
 }
 
 .nav-title{
@@ -52,20 +49,18 @@
 
 
 .container-productos{
-    all: initial;
     position: fixed;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 8rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
     z-index: 9999;
-    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 0fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 1px;
     height: 300px;
-    width: 90%;
+    width: 80%;
     background: #eef4ed;
     border-radius: 10px;
     backdrop-filter: blur(0px);
@@ -79,14 +74,17 @@
     opacity: 1; /* Change the opacity to 1 to show the element */
     pointer-events: auto; /* Enable pointer events when the element is shown */
   }
+  .container-productos.show.sticky {
+   margin-top: 8rem;
+  }
 
 .productos {
     border-radius: 5px;
-    margin:auto;
     height: 100px;
+    pad: 16px 16px;
     display: flex;
     align-items: center;
-    width: 320px;
+    width: 300px;
   }
   .productos:hover{
     background: #d3dcd26c;
@@ -108,7 +106,7 @@
     font-size: 1rem;
   }
   .titulo-productos:hover{
-    color: #328761;
+    color: #36B079;
   }
   
   .subtitulo-productos{
@@ -119,5 +117,7 @@
   }
   .logo-productos{
     height: 50px;
+    margin-left: 2%;
   }
+  
   
