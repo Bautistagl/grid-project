@@ -84,7 +84,7 @@
     pad: 16px 16px;
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 200px;
   }
   .productos:hover{
     background: #d3dcd26c;
