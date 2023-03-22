@@ -7,7 +7,7 @@ import { cloudIcon } from '../assets'
 
 
 function Navbar()  {
-    const[dropdown,setDropdown] = useState(true)
+    const[dropdown,setDropdown] = useState(false)
     const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {

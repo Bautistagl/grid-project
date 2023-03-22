@@ -1,8 +1,22 @@
-import React from 'react'
+import Lottie from 'lottie-web'
+import React, { useEffect, useRef } from 'react'
 import { gridLogo1, gridLogoBlanco } from '../assets'
 import "../styles/Principal.css"
 
 const Principal = () => {
+
+  const container = useRef(null)
+
+  useEffect(()=>{
+    Lottie.loadAnimation({
+      container: container.current,
+      renderer:'svg',
+      loop:true,
+      autoplay:true,
+      animationData:require('../assets/animGlobe.json')
+    })
+  },[])
+
   return (
    <section className='contenedorPrincipal'>
   
@@ -15,7 +29,9 @@ const Principal = () => {
         Our decentralized cloud hosting service offers you the ability to scale your applications and data without the need for a centralized data center. Say goodbye to high costs and enjoy the benefits of distributed computing
         </div>
      </div>
-          <img className='fotoPrincipal' src={gridLogo1} alt="" />
+          {/* <img className='fotoPrincipal' src={gridLogo1} alt="" /> */}
+          <div className='animacion-principal' ref={container}> </div>
+         
     </section>
   )
 }
