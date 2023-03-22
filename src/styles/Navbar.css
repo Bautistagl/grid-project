@@ -120,7 +120,7 @@
     margin-left: 2%;
   }
   
-  @media screen and (max-width:600px){
+  /* @media screen and (max-width:600px){
     .navbar{
         position: absolute;
         background:#0c1317 ;
@@ -154,4 +154,24 @@
   padding: 5px 5px;
  
 }
+  } */
+  @media only screen and (max-width: 500px) {
+    /* Set the navbar to appear at the top of the screen */
+    .navbar {
+      
+      height: 400px;
+    
+      width: 100%;
+    }
+    
+    /* Display nav items vertically */
+    .nav-items {
+      display: flex;
+      flex-direction: column;
+      margin-top: 300px;
+    }
+    
+    .nav-item {
+     margin: auto;
+    }
   }
