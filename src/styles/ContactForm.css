@@ -98,3 +98,34 @@
     color: #0c1317;
 
 }
+
+@media screen and (max-width:600px){
+
+    .contact-input{
+        width:200px ;
+        height: 20px;
+        margin-top: 5%;
+    }
+    .contact-titulo{
+       font-size: 36px ;
+    }
+    .contact-input-description{
+        margin-top: 5%;
+        width:200px ;
+        height: 90px;
+    }
+
+    .contact-section{
+        height: 380px;
+    }
+    .contact-input-description::placeholder{
+    
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .contact-button{
+        margin-left: 58%;    
+        font-size: 0.9rem;
+    }
+}

@@ -56,9 +56,48 @@
     background-color:#36B079 ;
     width: 40%;
     cursor: pointer;
-}.guarantee-icon{
+}
+.guarantee-icon{
    margin-right: 30px;
     height: 80px;
     
+
+}
+@media screen and (max-width:600px){
+    .guarantee-container{
+    
+        width: 280px;
+        height: 300px;
+        border-radius: 20px;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        background-color: #eef4ed;;
+    }
+
+    .guarantee-button{
+        width: 80%;
+    }
+
+    .guarantee-titulo{  
+        font-size: 32px;
+    }
+
+    .guarantee-subtitulo{  
+        font-size: 12px;  
+    }
+
+    .guarantee-icon{
+        margin-right: 20px;
+        margin-left: 10px;
+        height: 60px;
+     }
+
+     .guarantee-leyenda{
+      
+        font-size: 9px;
+       
+    }
+
 
 }

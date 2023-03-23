@@ -49,9 +49,7 @@
     margin-bottom: 10px;
     padding: 10px 20px;
     border-radius: 5px;
-    
 }
-
 
 .title{
     color: #0c1317;
@@ -84,3 +82,26 @@
    margin-left: auto;
 }
 
+@media screen and (max-width:600px){
+
+    .faqs-container{
+   
+        display: grid;
+        grid-template-columns: auto;
+        height: 1000px;
+    }
+
+    .faqs-subtitulo{
+        font-size: 16px;
+    }
+
+    .item{
+       width: 250px;
+    }
+
+    .guarantee{
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 53%;
+     }
+}

@@ -4,7 +4,7 @@ import "../styles/Button.css"
 
 const Button = (texto) => {
   return (
-    <Link to="signup" >
+    <Link to="#" >
         <button className='btn'>Visit Now</button>
     </Link>
   )

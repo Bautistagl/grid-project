@@ -12,7 +12,7 @@ const Cards = () => {
         Cloud Hosting
       </div>
       <div className='subtitulo-card'> Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab</div>
-      <Button />
+      <button className='button-card'> Visit now </button>
     </div>
     <div className='card3'>
     <img alt='' className='icono-card' src={cloudIcon}/>
@@ -20,7 +20,7 @@ const Cards = () => {
         Web Hosting
       </div>
       <div className='subtitulo-card'>  Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab</div>
-      <Button/>
+      <button className='button-card'> Visit now </button>
       </div>
     <div className='card3'>
       <img alt='' className='icono-card' src={cloudIcon}/>
@@ -28,7 +28,7 @@ const Cards = () => {
        Game Servers
       </div>
       <div className='subtitulo-card'> Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab </div>
-      <Button/>
+      <button className='button-card'> Visit now </button>
       </div>
     </section>
   )
