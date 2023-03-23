@@ -159,7 +159,7 @@
     /* Set the navbar to appear at the top of the screen */
     .navbar {
       
-      height: 400px;
+      height: 70px;
     
       width: 100%;
     }
@@ -174,4 +174,12 @@
     .nav-item {
      margin: auto;
     }
+    .navbar-logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 8rem;
+      height: 3rem;
+     
+  }
   }

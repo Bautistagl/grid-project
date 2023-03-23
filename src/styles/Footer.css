@@ -5,10 +5,7 @@
     padding: 20px;
     z-index: 0;
     justify-content: start;
-    align-items: sta;
     
-   
-   
 }
 li{
   list-style: none;
@@ -53,7 +50,6 @@ ul{
   font-size: 1.1rem;
   margin-right: 10%;
   grid-column: 1 / 2;
-  
 }
 
 .footer-parrafo{
@@ -102,36 +98,71 @@ ul{
   margin: auto;
 }
 
-/* .reserved-footer{
-    color: #0c1317be;
-    text-align: center;
-    font-family: rouben;
-    margin-top: 10px;
-}
-
-
-
-
-.icon-redes{
-    height: 40px;
-    margin: 0 10px;
-}
-
-@media screen and (min-width: 768px) {
-  .container-footer {
-    flex-direction: row;
-    height: 50px;
-    align-items: center;
+@media only screen and (max-width: 500px) {
+  .container-footer{
+    display: grid;
+    grid-template-columns: auto;
+    background: #0c1317;
+    padding: 20px;
+    z-index: 0;
+    justify-content: start;
     width: 100%;
-  }
+}
+.footer-parrafo{
+  padding: 10px 10px;
+  width: 80%;
+  color: #eef4edad;
+  font-size: 0.8rem;
+}
+.licencias-footer{
+  
+  all: initial;
+  font-family: 'Courier New', Courier, monospace;
+  color:#eef4ed;
+  margin: auto;
+  font-size: 0.6rem;
+  width: 90%;
+}
+.footer-titulo-principal{
+  font-size: 1rem;
+  color: #eef4ed;
+  font-weight: bolder;
+  justify-content: start;
+  align-items: start;
+  margin-left: 3%;
+}
+.columnas {
+  color: #eef4ed;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "columna-principal columna-principal"
+    "columna-ecosystem columna-discover"
+    "columna-explore columna-community";
+  margin-bottom: 4%;
+}
 
-  .reserved-footer{
-    margin-bottom: 0;
-    margin-right: auto;
+.boton-footer{
+  height: 15%;
+  margin-left: 3%;
+  width: 70%;
+  font-size: 0.8rem;
+  margin-bottom: 5%;
+}
+.columna {
+  margin-top: 10%;
+  width: 100%;
+  padding: 0.7rem;
+  margin-left: 4%;
+  font-size: 0.8rem;
+}
+li{
+  font-size: 0.6rem;
+  padding: 5px 5px 5px 0px;
+  color: #eef4edad;
+  cursor: pointer;
+}
+.columna-principal {
+  grid-area: columna-principal;
   }
-
-  .logo-footer{
-    height: 190px;
-    margin-bottom: 0;
-  }
-} */
+}

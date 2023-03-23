@@ -32,6 +32,8 @@ const Footer = () => {
            <button className='boton-footer' > Support Center</button>
 
          </div>
+      
+         
          <div className='columna'> 
             <div className='footer-titulo'>
               ECOSYSTEM
@@ -79,6 +81,7 @@ const Footer = () => {
              <li> Bug bounty</li>
             </ul>
           </div>
+      
         </div>
         <div className='licencias-footer'>
         © 2023 Grid Mine |
@@ -91,6 +94,3 @@ const Footer = () => {
 
 export default Footer
 
-{/* <img className='logo-footer' src={logoTransparente}/>
-
-    <div className='reserved-footer'> © Grid Mine 2023 All rights reserved.</div> */}
