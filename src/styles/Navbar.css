@@ -155,13 +155,12 @@
  
 }
   } */
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     /* Set the navbar to appear at the top of the screen */
     .navbar {
-      
       height: 70px;
-    
       width: 100%;
+      margin-left: 6.7vw;
     }
     
     /* Display nav items vertically */
@@ -180,6 +179,8 @@
       justify-content: space-between;
       width: 8rem;
       height: 3rem;
+      margin-left: 0;
+ 
      
   }
   }
