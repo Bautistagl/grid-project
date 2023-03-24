@@ -25,7 +25,7 @@ function Navbar()  {
             <Link to="/">
                    <img className='navbar-logo' src={gridLogo1}/>
              </Link>
-        {/* <ul className='nav-items'>
+        <ul className='nav-items'>
           <div className='nav-title'> Home</div>
           <div
           
@@ -35,7 +35,7 @@ function Navbar()  {
           <div className='nav-title'> Solutions </div>
           <div className='nav-title'> About Us </div>
           <div className='nav-title'> Contact </div>
-        </ul> */}
+        </ul>
         </nav>
         <div className={`container-productos ${dropdown ? 'show' : ''} ${isSticky ? 'sticky' : '' }`}
           onMouseOver={() => setDropdown(true)}
