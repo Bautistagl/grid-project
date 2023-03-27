@@ -10,6 +10,16 @@ function Navbar()  {
     const[dropdown,setDropdown] = useState(false)
     const[menu,setMenu] = useState(false)
     const [isSticky, setIsSticky] = useState(false);
+
+    const [selected, setSelected] = useState(false);
+
+const toggle = () => {
+  if(selected === true) {
+    return setSelected(false)
+  }
+  setSelected(true)
+}
+
   useEffect(() => {
     const handleScroll = () => {
       window.scrollY > 0 ? setIsSticky(true) : setIsSticky(false);
@@ -43,7 +53,68 @@ function Navbar()  {
         <ul className='menu-items'>
           <div className='menu-title'> Home</div>
           <div
-          className='menu-title'> Productos </div>
+          className='menu-title'
+          onClick={()=>toggle()}
+          > Productos </div>
+          <div className={selected === true ? 'producto show' : 'noshow'}>
+          <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> Cloud Hosting  </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> VPS  </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> Web Hosting  </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> Game Servers </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> VPN </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> Fan Cooling Mobile  </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> Asic Mining </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+               <div className='productos'> 
+               <img alt='' className='logo-productos' src={cloudIcon}/>
+               <div  className='descripcion-productos'> 
+               <span className='titulo-productos'> Immersion Cooling Mining </span>
+               <span className='subtitulo-productos'> Una descripcion un poco mas larga paraq ver  </span>
+               </div>
+               </div>
+
+          </div>
           <div className='menu-title'> Solutions </div>
           <div className='menu-title'> About Us </div>
           <div className='menu-title'> Contact </div>
