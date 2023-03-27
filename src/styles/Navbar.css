@@ -9,6 +9,9 @@
     z-index: 1000; 
     width: 100%;
 }
+.hamburguer-navbar{
+  display: none;
+}
 
  .navbar.sticky {
     width: 100%;
@@ -30,7 +33,6 @@
     width: 100%;
     justify-content: center;
     align-self: center;
-    
 }
 
 .nav-title{
@@ -46,6 +48,12 @@
     color: #36B079;
 }
 
+.menu-navbar{
+  display: none;
+}
+.menu-navbar.show{
+  display: none;
+}
 
 
 .container-productos{
@@ -74,6 +82,7 @@
     opacity: 1; /* Change the opacity to 1 to show the element */
     pointer-events: auto; /* Enable pointer events when the element is shown */
   }
+  
   .container-productos.show.sticky {
    margin-top: 8rem;
   }
@@ -119,53 +128,21 @@
     height: 50px;
     margin-left: 2%;
   }
-  
-  /* @media screen and (max-width:600px){
-    .navbar{
-        position: absolute;
-        background:#0c1317 ;
-        height: 10vh;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        z-index: 1000; 
-        width: 100px;
-        margin-left: 12%;
-    }
-    .navbar-logo{
-      display: flex;
-      align-items: center;
-      justify-content: start;
-      width: 150px;
-      
-  }
-  .nav-items{
-    display: flex;
-    width: 10%;
-    justify-content: center;
-    align-self: center;
-    
-}
-.nav-title{
-  font-size: 0.9rem;
-  font-family: rouben;
-  cursor: pointer;
-  color: #eef4ed;
-  padding: 5px 5px;
  
-}
-  } */
   @media only screen and (max-width: 600px) {
-    /* Set the navbar to appear at the top of the screen */
     .navbar {
       height: 70px;
       width: 100%;
-      margin-left: 6.7vw;
+    }
+    .hamburguer-navbar{
+      display:flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-left: 25%;
     }
     
-    /* Display nav items vertically */
     .nav-items {
-      display: flex;
+      display: none;
       flex-direction: column;
       margin-top: 300px;
     }
@@ -180,7 +157,62 @@
       width: 8rem;
       height: 3rem;
       margin-left: 0;
- 
-     
   }
+  .container-productos{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    z-index: 9999;
+    display: grid;
+    grid-template-columns: auto;
+    height: 960px;
+    width: 300px;
+}
+.productos {
+  margin: 10px;
+  height: 100px;
+  width: 200px;
+}
+.logo-productos{
+  height: 30px;
+
+}
+.titulo-productos{
+  margin-bottom: 5%;
+  font-family: rouben;
+  font-size: 0.8rem;
+}
+.subtitulo-productos{
+  font-family: rouben ligth;
+  width: 70%;
+  font-size: 0.6rem;
+
+}
+.menu-navbar.show{
+   position: fixed;
+    justify-content: center;
+    align-items: start;
+    margin-top: 8rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    z-index: 9999;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background: #eef4ed;
+    border-radius: 10px;
+    backdrop-filter: blur(0px);
+}
+.menu-title{
+  font-family: rouben;
+  width: 100%;
+  margin-top: 10%;
+  
+}
+.menu-title:active{
+  color:#36B079
+}
+
   }

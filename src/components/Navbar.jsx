@@ -8,6 +8,7 @@ import { cloudIcon } from '../assets'
 
 function Navbar()  {
     const[dropdown,setDropdown] = useState(false)
+    const[menu,setMenu] = useState(false)
     const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -25,18 +26,30 @@ function Navbar()  {
             <Link to="/">
                    <img className='navbar-logo' src={gridLogo1}/>
              </Link>
+             <button
+              onClick={()=>setMenu(!menu)}
+             className='hamburguer-navbar'> HAM </button>
         <ul className='nav-items'>
           <div className='nav-title'> Home</div>
           <div
-          
            onMouseOver={() => setDropdown(true)}
-
           className='nav-title'> Productos </div>
           <div className='nav-title'> Solutions </div>
           <div className='nav-title'> About Us </div>
           <div className='nav-title'> Contact </div>
         </ul>
         </nav>
+        <div className={`menu-navbar ${menu ? 'show' : ''}`}> 
+        <ul className='menu-items'>
+          <div className='menu-title'> Home</div>
+          <div
+          className='menu-title'> Productos </div>
+          <div className='menu-title'> Solutions </div>
+          <div className='menu-title'> About Us </div>
+          <div className='menu-title'> Contact </div>
+        </ul>
+        
+        </div>
         <div className={`container-productos ${dropdown ? 'show' : ''} ${isSticky ? 'sticky' : '' }`}
           onMouseOver={() => setDropdown(true)}
           onMouseLeave={()=>setDropdown(false)}
