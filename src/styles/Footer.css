@@ -98,7 +98,7 @@ ul{
   margin: auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .container-footer{
     display: grid;
     grid-template-columns: auto;
@@ -152,7 +152,7 @@ ul{
 .columna {
   margin-top: 10%;
   width: 100%;
-  padding: 0.7rem;
+  padding: 0.1rem;
   margin-left: 4%;
   font-size: 0.8rem;
 }

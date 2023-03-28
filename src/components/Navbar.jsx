@@ -1,7 +1,7 @@
 import React,{useState,useEffect,useRef} from 'react'
 import {Link} from "react-router-dom"
 import "../styles/Navbar.css"
-import { gridLogo1 } from '../assets'
+import { abierto, cerrado, gridLogo1, menuCerrado, menuH } from '../assets'
 import { cloudIcon } from '../assets'
 
 
@@ -44,7 +44,7 @@ const toggleMenu = () => {
              <button
               onClick={()=>toggleMenu() }
               
-             className='hamburguer-navbar'> HAM </button>
+             className='hamburguer-navbar'> {menu===false ?  <img className='hamburger-logo' src={menuH}/> : <img className='hamburger-logoCerrado' src={menuCerrado}/>} </button>
         <ul className='nav-items'>
           <div className='nav-title'> Home</div>
           <div
@@ -63,7 +63,7 @@ const toggleMenu = () => {
           className='menu-title'
           onClick={()=>toggle()}
           > Productos
-           <span >{selected === true ? '▲' : '▼'}</span>
+           <span className='hamburger-span' >{selected === true ? <img className='hamburger-cerrado' src={cerrado} /> : <img className='hamburger-abierto' src={abierto} />}</span>
            </div>
           <div className={selected === true ? 'producto show' : 'noshow'}>
           <div className='productos'> 

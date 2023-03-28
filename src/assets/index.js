@@ -11,6 +11,10 @@ import twitter from "./twitter-sign.png"
 import discord from "./discord.png"
 import gridLogo1 from "./gridLogo1.png"
 import moneyBack from "./moneyBack.png"
+import menuH from "./menu.png"
+import abierto from "./abierto.png"
+import cerrado from "./cerrado.png"
+import menuCerrado from "./menuCerrado.png"
 
 
 export {
@@ -25,7 +29,11 @@ export {
     discord,
     linkedin,
     gridLogo1,
-    moneyBack
+    moneyBack,
+    menuH,
+    abierto,
+    cerrado,
+    menuCerrado
    
 
 

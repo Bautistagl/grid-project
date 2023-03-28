@@ -82,7 +82,7 @@
    margin-left: auto;
 }
 
-@media screen and (max-width:600px){
+@media only screen and (max-width:400px){
 
     .faqs-container{
    
@@ -102,6 +102,9 @@
     .guarantee{
         margin-top: 5%;
         margin-left: 0;
-        margin-right: 53%;
+       
      }
+     .accordion{
+        width: 100%;
+    }
 }
