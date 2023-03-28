@@ -79,5 +79,9 @@
         align-self: center;
         
     }
+    .animacion-principal{
+        display: none;
+         
+     }
 
 }

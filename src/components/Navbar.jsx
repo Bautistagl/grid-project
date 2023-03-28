@@ -19,6 +19,11 @@ const toggle = () => {
   }
   setSelected(true)
 }
+const toggleMenu = () => {
+  setMenu(!menu)
+  setSelected(false)
+}
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,13 +42,15 @@ const toggle = () => {
                    <img className='navbar-logo' src={gridLogo1}/>
              </Link>
              <button
-              onClick={()=>setMenu(!menu)}
+              onClick={()=>toggleMenu() }
+              
              className='hamburguer-navbar'> HAM </button>
         <ul className='nav-items'>
           <div className='nav-title'> Home</div>
           <div
            onMouseOver={() => setDropdown(true)}
-          className='nav-title'> Productos </div>
+          className='nav-title'> Productos 
+           </div>
           <div className='nav-title'> Solutions </div>
           <div className='nav-title'> About Us </div>
           <div className='nav-title'> Contact </div>
@@ -55,7 +62,9 @@ const toggle = () => {
           <div
           className='menu-title'
           onClick={()=>toggle()}
-          > Productos </div>
+          > Productos
+           <span >{selected === true ? '▲' : '▼'}</span>
+           </div>
           <div className={selected === true ? 'producto show' : 'noshow'}>
           <div className='productos'> 
                <img alt='' className='logo-productos' src={cloudIcon}/>
