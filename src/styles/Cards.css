@@ -2,17 +2,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 25%;
     margin-bottom: 10%;
 }
 .card3{
-    height: 300px;
-    width: 350px;
+    height: 160px;
+    width: 300px;
     background-color: #eef4ed ;
     box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(43,97,209,.05);
-    margin-left: 2%;
-    border-radius: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 12px;
+     background-image: url('../assets/Fondo4Cards.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease-out;
 }
+
+.card3-selected{
+    height: 160px;
+    width: 300px;
+    background-color: #eef4ed ;
+    box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(43,97,209,.05);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 12px;
+     background-image: url('../assets/Fondo4Cards.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform: translateY(-15px);
+    transition: transform 0.3s ease-in;
+}
+
 
 
 /* .card3:hover{
@@ -27,7 +50,7 @@
     font-size: 1.25rem;
     margin-left: 5%;
     margin-bottom: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 7rem;
     
 }
 .subtitulo-card{
@@ -70,6 +93,8 @@
     margin-top: 10%;
     margin-left: 5%;
 }
+
+
 
 @media only screen and (max-width: 450px) {
     .card-contenedor{

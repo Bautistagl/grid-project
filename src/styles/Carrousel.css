@@ -1,0 +1,42 @@
+.car-section{
+    height: 1000px;
+}
+.textosCar{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: auto;
+    
+
+}
+
+.primeraParteCar{
+    color: #36B079;
+    font-weight: bold;
+}
+
+.subtituloCar{
+    font-family: rouben ligth;
+    font-size: 20px;
+    width: 600px;
+    color: #eef4ed;
+}
+.tituloCar{
+    font-family: rouben;
+    font-size: 36px;
+    width: 700px;
+    font-weight: 500;
+    margin-bottom: 3%;
+    color:#eef4ed ;
+    margin-top: 10%;
+
+}
+.sliderCar{
+    height:300px;
+    width:80%;
+    text-align:"center";
+    margin: auto
+}
+.slick-arrow.slick-prev,.slick-arrow.slick-next{
+    margin-top: 20%;
+}

@@ -1,5 +1,9 @@
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import { BrowserRouter } from "react-router-dom";
 import Cards from "./components/Cards";
+import SimpleSlider from "./components/Carrousel";
 import ContactForm from "./components/ContactForm";
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
@@ -21,18 +25,19 @@ function App() {
      <Navbar/>  
     </div>
 
-     <div className="pri-container"> 
+     {/* <div className="pri-container"> 
       <Principal/>
-     </div>
+     </div> */}
+     <SimpleSlider/>
      <div className="seg-container"> 
      <Segundo/>
      </div>
      <div className="powered-container">
         <Powered style={{ marginLeft: 0 }} />
      </div>
-     <div className="car-container">
+     {/* <div className="car-container">
      <Cards/>
-     </div>
+     </div> */}
      <div className="faq-container">
      <Faqs/>
      </div>
