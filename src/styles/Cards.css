@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25%;
-    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-bottom: 6%;
 }
 .card3{
     height: 160px;
-    width: 300px;
+    width: 18vw;
     background-color: #eef4ed ;
     box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(43,97,209,.05);
     margin-left: 5%;
@@ -22,7 +22,7 @@
 
 .card3-selected{
     height: 160px;
-    width: 300px;
+    width: 18vw;
     background-color: #eef4ed ;
     box-shadow: 7.74807px 7.74807px 18.7404px 7.87404px rgba(43,97,209,.05);
     margin-left: 5%;

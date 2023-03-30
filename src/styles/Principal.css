@@ -37,11 +37,11 @@
 }
 
 .animacion-principal{
-   margin-top: auto;
+    margin-top: -1%;
    margin-left: 7.7%;
    position: absolute;
-   width: 550px;
-   height: 550px;
+   width: 500px;
+   height: 500px;
    justify-content: center;
    align-items: center;
    z-index: 1000;

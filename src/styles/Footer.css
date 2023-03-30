@@ -69,7 +69,7 @@ ul{
 .boton-footer{
   border-style: none;
   border: 2px solid #eef4edad;
-  display: block;
+  display: flex;
   margin-top: 5%;
   height: 15%;
   background: #0c1317;
@@ -107,12 +107,21 @@ ul{
     z-index: 0;
     justify-content: start;
     width: 100%;
+    
 }
+
 .footer-parrafo{
-  padding: 10px 10px;
-  width: 80%;
-  color: #eef4edad;
-  font-size: 0.8rem;
+
+  display: flex;
+ justify-content: center;
+ width: 250px;
+ align-items: center;
+ align-self: center;
+ font-size: 0.8rem;
+ margin-bottom: 5%;
+ margin-top: 5%;
+ margin-left: 8%;
+  
 }
 .licencias-footer{
   
@@ -127,13 +136,16 @@ ul{
   font-size: 1rem;
   color: #eef4ed;
   font-weight: bolder;
-  justify-content: start;
-  align-items: start;
-  margin-left: 3%;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
 }
 .columnas {
   color: #eef4ed;
   display: grid;
+  justify-content: center;
+  align-content: center;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "columna-principal columna-principal"
@@ -143,8 +155,12 @@ ul{
 }
 
 .boton-footer{
+  
+  justify-content: center;
+  align-items: center;
+  align-self: center;
   height: 15%;
-  margin-left: 3%;
+  margin-left: 14.5%;
   width: 70%;
   font-size: 0.8rem;
   margin-bottom: 5%;
@@ -153,7 +169,7 @@ ul{
   margin-top: 10%;
   width: 100%;
   padding: 0.1rem;
-  margin-left: 4%;
+  margin-left: 6%;
   font-size: 0.8rem;
 }
 li{
@@ -164,5 +180,16 @@ li{
 }
 .columna-principal {
   grid-area: columna-principal;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin-right: 0%;
+  width: 250px;
   }
+  .redes-footer{
+    justify-content: center;
+    align-items: center;
+  }
+  
 }

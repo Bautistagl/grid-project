@@ -1,11 +1,10 @@
 .car-section{
-    height: 1000px;
+    height: 800px;
 }
 .textosCar{
     justify-content: center;
     align-content: center;
     width: 100%;
-    margin-top: 10%;
     margin-left: 3%;
     margin-right: auto;
     
@@ -31,9 +30,12 @@
     font-weight: 500;
     margin-bottom: 3%;
     color:#eef4ed ;
-    margin-top: 10%;
 
 }
+.slick-slide,.slick-active,.slick-current{
+    margin-top: 1.5%;
+}
+
 .sliderCar{
     height:300px;
     width:80%;
@@ -41,13 +43,14 @@
     margin: auto
 }
 .slick-arrow.slick-prev,.slick-arrow.slick-next{
-    margin-top: 20%;
+    margin-top: 11%;
 }
 
 @media only screen and (max-width: 450px) {
 
     .car-section{
         height: 300px;
+        margin-bottom: 10%;
     }
     .textosCar{
        margin-top: 35%;

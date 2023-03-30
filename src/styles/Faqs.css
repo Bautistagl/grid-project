@@ -86,10 +86,14 @@
 @media only screen and (max-width:450px){
 
     .faqs-container{
-        margin-left: 4.5%;
+        
         display: grid;
         grid-template-columns: auto;
         height: 1000px;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        
     }
     .content{
         font-size: 12px;
