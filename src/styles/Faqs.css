@@ -19,6 +19,7 @@
     justify-content: center;
     display: flex;
     color: #eef4ed;
+    margin-top: 5%;
 }
 .faqs-subtitulo{
     font-size: 1.3rem;
@@ -85,12 +86,24 @@
 @media only screen and (max-width:450px){
 
     .faqs-container{
-   
+        margin-left: 4.5%;
         display: grid;
         grid-template-columns: auto;
         height: 1000px;
     }
+    .content{
+        font-size: 12px;
+    }
 
+    .title{
+        color: #0c1317;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-family: rouben;
+        font-size: 0.6rem;
+    }
     .faqs-subtitulo{
         font-size: 16px;
     }
@@ -100,11 +113,15 @@
     }
 
     .guarantee{
-        margin-top: 5%;
-        margin-left: 0;
+        margin-top: -30%;
+        margin-left: 0%;
        
      }
      .accordion{
         width: 100%;
+    }
+    .faqs-titulo{
+        font-size: 2rem;
+       
     }
 }

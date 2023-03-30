@@ -1,6 +1,6 @@
 
 import logoBlanco from "./logoBlanco.png"
-import logoTransparente from "./logoTransparente.png"
+
 import logoNegro from "./logoNegro.png"
 import mapa2  from "./mapa.png"
 import fluxLogo from "./fullFlux.png"
@@ -20,7 +20,7 @@ import iconoAsic from "./icono-asic.svg"
 
 export {
     logoBlanco,
-    logoTransparente,
+  
     logoNegro,
     mapa2,
     fluxLogo,
