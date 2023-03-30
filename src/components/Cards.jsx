@@ -9,7 +9,7 @@ const Cards = () => {
     <div className='card3'>
     {/* <img alt='' className='icono-card' src={cloudIcon}/> */}
       <div className='titulo-card'>
-        Cloud Hosting
+        Web Hosting
       </div>
       {/* <div className='subtitulo-card'> Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab</div> */}
       {/* <button className='button-card'> Visit now </button> */}
@@ -17,7 +17,7 @@ const Cards = () => {
     <div className='card3'>
     {/* <img alt='' className='icono-card' src={cloudIcon}/> */}
       <div className='titulo-card'>
-        Web Hosting
+        Asic Mining
       </div>
       {/* <div className='subtitulo-card'> Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab</div> */}
       {/* <button className='button-card'> Visit now </button> */}
@@ -25,7 +25,7 @@ const Cards = () => {
     <div className='card3'>
       {/* <img alt='' className='icono-card' src={cloudIcon}/> */}
       <div className='titulo-card'>
-       Game Servers
+       VPS
       </div>
       {/* <div className='subtitulo-card'> Lorem ipsum dolor sit amecabo totam doloremque quia delectus animi error amet eveniet, libero iure adipisci lab</div> */}
       {/* <button className='button-card'> Visit now </button> */}

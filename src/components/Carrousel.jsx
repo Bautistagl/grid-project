@@ -36,7 +36,7 @@ export default class SimpleSlider extends Component {
         <Principal/>
 
             <div className='tituloCar'>
-                <span className='primeraParteCar'> ¿CLOUD HOSTING y precios accesibles para tu sitio web? </span>  Prueba nuestros servicios de cloud descentralizado y ahorra en costos de alojamiento.
+                <span className='primeraParteCar'> WEB HOSTING  </span>  Prueba nuestros servicios de cloud descentralizado y ahorra en costos de alojamiento.
             </div>
             <div className='subtituloCar'>
                 Our decentralized cloud hosting service offers you the ability to scale your applications and data without the need for a centralized data center. Say goodbye to high costs and enjoy the benefits of distributed computing
@@ -46,7 +46,7 @@ export default class SimpleSlider extends Component {
         <Principal/>
 
 <div className='tituloCar'>
-    <span className='primeraParteCar'> ¿WEB HOSTING y precios accesibles para tu sitio web? </span>  Prueba nuestros servicios de cloud descentralizado y ahorra en costos de alojamiento.
+    <span className='primeraParteCar'> ASIC MINING </span>  Prueba nuestros servicios de cloud descentralizado y ahorra en costos de alojamiento.
 </div>
 <div className='subtituloCar'>
     Our decentralized cloud hosting service offers you the ability to scale your applications and data without the need for a centralized data center. Say goodbye to high costs and enjoy the benefits of distributed computing
@@ -56,7 +56,7 @@ export default class SimpleSlider extends Component {
 <Principal/>
 
 <div className='tituloCar'>
-    <span className='primeraParteCar'> ¿GAME SERVERS y precios accesibles para tu sitio web? </span>  Prueba nuestros servicios de cloud descentralizado y ahorra en costos de alojamiento.
+    <span className='primeraParteCar'> VPS</span>  Prueba nuestros servicios de cloud descentralizado y ahorra en costos de alojamiento.
 </div>
 <div className='subtituloCar'>
     Our decentralized cloud hosting service offers you the ability to scale your applications and data without the need for a centralized data center. Say goodbye to high costs and enjoy the benefits of distributed computing
@@ -67,17 +67,17 @@ export default class SimpleSlider extends Component {
         <section className='card-contenedor'> 
     <div className={ this.state.currentSlide === 0 ? 'card3-selected' : 'card3'}>
       <div className='titulo-card'>
-        Cloud Hosting
+       Web Hosting
       </div>
     </div>
     <div className={ this.state.currentSlide === 1 ? 'card3-selected' : 'card3'}>
       <div className='titulo-card'>
-        Web Hosting
+        Asic Mining
       </div>
       </div>
       <div className={ this.state.currentSlide === 2 ? 'card3-selected' : 'card3'}>
       <div className='titulo-card'>
-       Game Servers
+       VPS
       </div>
       </div>
     </section>

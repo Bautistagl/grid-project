@@ -1,7 +1,7 @@
 import React,{useState,useEffect,useRef} from 'react'
 import {Link} from "react-router-dom"
 import "../styles/Navbar.css"
-import { abierto, cerrado, gridLogo1, menuCerrado, menuH } from '../assets'
+import { abierto, cerrado, gridLogo1, iconoAsic, menuCerrado, menuH } from '../assets'
 import { cloudIcon } from '../assets'
 
 

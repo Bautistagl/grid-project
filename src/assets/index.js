@@ -15,6 +15,7 @@ import menuH from "./menu.png"
 import abierto from "./abierto.png"
 import cerrado from "./cerrado.png"
 import menuCerrado from "./menuCerrado.png"
+import iconoAsic from "./icono-asic.svg"
 
 
 export {
@@ -33,7 +34,8 @@ export {
     menuH,
     abierto,
     cerrado,
-    menuCerrado
+    menuCerrado,
+    iconoAsic
    
 
 
